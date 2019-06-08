@@ -1,2 +1,0 @@
-# devramz.com
-Project Website
