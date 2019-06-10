@@ -1,0 +1,65 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: rgb(56 ,56 ,56);
+	color: black;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+.header {
+	padding: 20px;
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+.header ul li {
+	display: inline-block;
+	margin-left: 56px;
+}
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 10px 10px;
+}
+.header a:hover {
+	background-color: salmon;
+	color:white;
+}
+.hero {
+    height: 280px;
+    background-image: url(img/gambar.jpeg);
+    background-size: 470px 280px;
+    background-position: 0 0;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+.content {
+	padding: 20px;
+}
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.content .penulis {
+	font-size: 11px;
+	margin-top: -23px;
+}
+.content p {
+	font-size: 14px;
+	margin-top: -5px
+}
+.content .penulis a {
+	color: salmon;
+}
+.footer {
+	background-color: #333;
+}
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
